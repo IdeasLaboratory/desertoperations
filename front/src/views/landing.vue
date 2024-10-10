@@ -13,7 +13,7 @@ const validate = () => {
 <template>
   <div class="d-flex justify-center align-center vh-100">
     <div>
-      <h1>Desert operation</h1>
+      <h1>Desert operations</h1>
       <v-form ref="form">
         <v-text-field
           v-model="user.pseudo"
