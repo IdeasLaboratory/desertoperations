@@ -4,8 +4,8 @@ import "vuetify/styles";
 
 // Vuetify
 import { createVuetify } from "vuetify";
-import * as components from 'vuetify/components'
-import * as directives from 'vuetify/directives'
+import * as components from "vuetify/components";
+import * as directives from "vuetify/directives";
 
 export default createVuetify({
   components,
@@ -15,9 +15,9 @@ export default createVuetify({
       light: {
         dark: true,
         colors: {
-          primary: "rgb(255, 203, 0)",
-          secondary: "rgb(17, 26, 70)",
-          background: 'rgb(0, 6, 20)'
+          primary: "#f0bf58",
+          secondary: "#333333",
+          background: "#0f0f0f",
         },
       },
     },

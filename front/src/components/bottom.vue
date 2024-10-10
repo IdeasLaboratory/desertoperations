@@ -1,28 +1,24 @@
 <script setup></script>
 
 <template>
-  <v-footer
-    class="abs-bottom bg-indigo-lighten-1 text-center d-flex flex-column"
+  <div
+    class="abs-bottom bg-secondary text-center d-flex flex-column bottom-width bottom-height pa-3 border-md"
   >
-    <div class="pt-0">
-      Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris
-      cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id
-      ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui.
-      Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada.
-      Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin.
-      Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius
-      natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    </div>
-
-    <v-divider></v-divider>
-
-    <div>{{ new Date().getFullYear() }} — <strong>Vuetify</strong></div>
-  </v-footer>
+    <h2>Recettes & dépenses</h2>
+    <div class="pt-0">- Gains toutes les 10 minutes -</div>
+  </div>
 </template>
 
 <style scoped>
 .abs-bottom {
   position: absolute;
   bottom: 0;
+}
+.bottom-width {
+  width: calc(100vw - 500px);
+}
+.bottom-height {
+  height: 250px;
+  overflow: scroll;
 }
 </style>

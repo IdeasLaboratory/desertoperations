@@ -6,6 +6,6 @@
 
 <style scoped>
 .custom-height {
-  height: 40px;
+  height: 100px;
 }
 </style>
